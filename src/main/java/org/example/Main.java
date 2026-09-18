@@ -1,8 +1,6 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+class Main {
     public static Integer encontrarMaior(int[] numeros) {
         if (numeros == null || numeros.length == 0) {
             return null;
